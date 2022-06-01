@@ -104,16 +104,16 @@ pepo {
   animation: slide 30s ease infinite;
 }
 .slide:nth-child(1) {
-  background-image: url("images/Prueba1.png");
+  background-image: url("images/1.png");
 }
 .slide:nth-child(2) {
-  background-image: url("images/7.png");
+  background-image: url("images/2.png");
 }
 .slide:nth-child(3) {
-  background-image: url("images/way.jpeg");
+  background-image: url("images/3.png");
 }
 .slide:nth-child(4) {
-  background-image: url("images/7.png");
+  background-image: url("images/4.png");
 }
 @keyframes slide {
   20% {
