@@ -7,6 +7,25 @@
         <link rel="stylesheet" href="xd.css">
     </head>
     <body>
+	    <!--#Fichero de Configuración SENCILLO (/etc/apache2/apache2.conf)
+#Directorio con los ficheros de configuración de Apache
+ServerRoot "/etc/apache2"
+#Directorio raíz de los documentos publicados
+DocumentRoot "/var/www/html"
+#Fichero en el que se guarda el número del proceso Apache
+PidFile /var/run/apache2/apache2.pid
+#Usuario y grupo con los que se ejecutará Apache
+User www-data
+Group www-data
+#Fichero de log para los errores
+ErrorLog /var/log/apache2/error.log
+#Incluye los módulos habilitados en nuestro servidor
+IncludeOptional mods-enabled/*.load
+IncludeOptional mods-enabled/*.conf
+#Incluye la config. de puertos en los que escucha el servidor
+Include ports.conf
+#Incluye las Web habilitadas en nuestro servidor
+IncludeOptional sites-enabled/*.conf -->
     <h1>Siete Azul</h1>
     <h2>La página oficial de Siete <span style="color: aqua;">Azul </span></h2>
     <br>
